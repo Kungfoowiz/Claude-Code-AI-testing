@@ -1,4 +1,4 @@
-## To run:
+## To run AI:
 /create-tests-from-requirements  
   
 Test: POST Create person and validate full name  
