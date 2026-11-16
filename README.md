@@ -1,4 +1,4 @@
-## To run AI:
+## Run AI to create the tests:  
 /create-tests-from-requirements  
   
 Test: POST Create person and validate full name  
@@ -12,5 +12,5 @@ System code folder:
 
 ---
   
-## To run tests.  
+## Run the tests:  
 npm run test
