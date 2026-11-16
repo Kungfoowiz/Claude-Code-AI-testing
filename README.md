@@ -1,11 +1,11 @@
 ## Run AI to create the tests:  
 /create-tests-from-requirements  
   
-Test: POST Create person and validate full name  
+Requirement: Create person and validate full name  
   Step 1  
-    POST /api/create-person.  
+    POST /api/create-person, with David Jones as full name.  
   Expected result  
-    Check response equals to "Hello, person!".  
+    Check response equals to "David Jones".  
   
 System code folder:  
 \code  
@@ -13,4 +13,6 @@ System code folder:
 ---
   
 ## Run the tests:  
-npm run test
+npm run test  
+
+  
